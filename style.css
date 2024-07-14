@@ -2,4 +2,57 @@
     box-sizing: border-box;
     margin: 0;
     scroll-behavior: smooth;
+    
+}
+
+body {
+    background-color: #040c3fd6;
+    
+}
+
+.quiz-card {
+    width: 30rem;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question-footer {
+    border-top: 1px solid rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+}
+
+.quiz-answer-card :hover {
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.05);
+
+}
+
+.bg-success {
+    color: white;
+}
+
+.bg-danger {
+    color: white;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
 }
